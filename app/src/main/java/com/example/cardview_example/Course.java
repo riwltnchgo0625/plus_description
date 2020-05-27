@@ -6,8 +6,10 @@ public class Course {
     private String Description;
     private int Thumbnail;
 
+    /*
     public Course() {
     }
+    */
 
     public Course(String title, String category, String description, int thumbnail) {
         Title = title;
@@ -32,7 +34,8 @@ public class Course {
         return Thumbnail;
     }
 
-
+    /*
+    // 안 쓰는 거 같아서 일단 주석처리 해둠
     public void setTitle(String title) {
         Title = title;
     }
@@ -48,5 +51,6 @@ public class Course {
     public void setThumbnail(int thumbnail) {
         Thumbnail = thumbnail;
     }
+    */
 }
 

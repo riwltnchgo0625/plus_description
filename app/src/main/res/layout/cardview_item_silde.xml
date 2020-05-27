@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="180dp"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@android:color/darker_gray"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/oneLine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="추천 코스 한 줄 요약"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/Test_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="추천 코스(타이틀)"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/Test_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="추천 코스에 대한 코멘트"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>
