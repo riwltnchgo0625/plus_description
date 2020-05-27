@@ -31,14 +31,11 @@ public class MainActivity extends AppCompatActivity {
 
 //        myrv.setLayoutManager(new GridLayoutManager(this, 3));
 
-        // recycleView 초기화
-        RecyclerView recyclerView = findViewById(R.id.recyclerview_id);
-
         // 가로 레이아웃
         LinearLayoutManager horizontalLayoutManager = new LinearLayoutManager(this, RecyclerView.HORIZONTAL, false);
 
         // 레이아웃 매니저 연결
-        recyclerView.setLayoutManager(horizontalLayoutManager);
+        myrv.setLayoutManager(horizontalLayoutManager);
 
         myrv.setAdapter(myAdapter);
     }
