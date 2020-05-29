@@ -18,7 +18,7 @@
 
             <ImageView
                 android:id="@+id/coursethumbnail"
-                android:layout_width="125dp"
+                android:layout_width="377dp"
                 android:layout_height="170dp"
                 android:background="#2d2d2d"
                 android:scaleType="centerCrop" />
@@ -47,6 +47,33 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="Description"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/tvdescription2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Description2"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/tvdescription3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Description3"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/tvdescription4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Description4"
                 android:textSize="18sp" />
 
         </LinearLayout>

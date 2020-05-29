@@ -11,10 +11,13 @@ public class Course {
     }
     */
 
-    public Course(String title, String category, String description, int thumbnail) {
+    public Course(String title, String category, String description,String description2,String description3,String description4, int thumbnail) {
         Title = title;
         Category = category;
         Description = description;
+        Description = description2;
+        Description = description3;
+        Description = description4;
         Thumbnail = thumbnail;
     }
 
@@ -29,6 +32,16 @@ public class Course {
     public String getDescription() {
         return Description;
     }
+    public String getDescription2() {
+        return Description;
+    }
+    public String getDescription3() {
+        return Description;
+    }
+    public String getDescription4() {
+        return Description;
+    }
+
 
     public int getThumbnail() {
         return Thumbnail;
