@@ -4,20 +4,22 @@ public class Course {
     private String Title;
     private String Category;
     private String Description;
+    private String Description2;
     private int Thumbnail;
+    private int Thumbnail2;
+
 
     /*
     public Course() {
     }
     */
 
-    public Course(String title, String category, String description,String description2,String description3,String description4, int thumbnail) {
+    public Course(String title, String category, String description,String description2, int thumbnail, int thumbnail2) {
         Title = title;
         Category = category;
         Description = description;
-        Description = description2;
-        Description = description3;
-        Description = description4;
+        Description2 = description2;
+        Thumbnail2 = thumbnail2;
         Thumbnail = thumbnail;
     }
 
@@ -33,16 +35,13 @@ public class Course {
         return Description;
     }
     public String getDescription2() {
-        return Description;
-    }
-    public String getDescription3() {
-        return Description;
-    }
-    public String getDescription4() {
-        return Description;
+        return Description2;
     }
 
 
+    public int getThumbnail2() {
+        return Thumbnail2;
+    }
     public int getThumbnail() {
         return Thumbnail;
     }
