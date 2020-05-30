@@ -3,10 +3,19 @@ package com.example.cardview_example;
 public class Course {
     private String Title;
     private String Category;
+
+
     private String Description;
     private String Description2;
+    private String Description3;
+    private String Description4;
+    private String Description5;
+
     private int Thumbnail;
     private int Thumbnail2;
+    private int Thumbnail3;
+    private int Thumbnail4;
+    private int Thumbnail5;
 
 
     /*
@@ -14,13 +23,24 @@ public class Course {
     }
     */
 
-    public Course(String title, String category, String description,String description2, int thumbnail, int thumbnail2) {
+    public Course(String title, String category, String description,String description2, String description3, String description4, String description5,
+                  int thumbnail, int thumbnail2,int thumbnail3, int thumbnail4, int thumbnail5) {
         Title = title;
         Category = category;
+
+        //요약
         Description = description;
         Description2 = description2;
+        Description3 = description3;
+        Description4 = description4;
+        Description5 = description5;
+
+        //사진
         Thumbnail2 = thumbnail2;
         Thumbnail = thumbnail;
+        Thumbnail3 = thumbnail3;
+        Thumbnail4 = thumbnail4;
+        Thumbnail5 = thumbnail5;
     }
 
     public String getTitle() {
@@ -37,15 +57,30 @@ public class Course {
     public String getDescription2() {
         return Description2;
     }
-
-
-    public int getThumbnail2() {
-        return Thumbnail2;
+    public String getDescription3() {
+        return Description3;
     }
+    public String getDescription4() {
+        return Description4;
+    }
+    public String getDescription5() {
+        return Description5;
+    }
+
+
     public int getThumbnail() {
         return Thumbnail;
     }
-
+    public int getThumbnail2() { return Thumbnail2; }
+    public int getThumbnail3() {
+        return Thumbnail3;
+    }
+    public int getThumbnail4() {
+        return Thumbnail4;
+    }
+    public int getThumbnail5() {
+        return Thumbnail5;
+    }
     /*
     // 안 쓰는 거 같아서 일단 주석처리 해둠
     public void setTitle(String title) {
